@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Operations</title>
+</head>
+<body>
+    <h2>Math Operations with x = 10 and y = 5</h2>
+    <p id="add"></p>
+    <p id="multip"></p>
+    <p id="mod"></p>
+
+    <script>
+        let x = 10;
+        let y = 5;
+
+        let add = x + y;
+        let multip = x * y;
+        let mod = x % y;
+
+        document.getElementById("add").innerText = "Addition (x + y): " + add;
+        document.getElementById("multip").innerText = "Multiplication (x * y): " + multip;
+        document.getElementById("mod").innerText = "Modulus (x % y): " + mod;
+    </script>
+</body>
+</html>
