@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Square Function</title>
+</head>
+<body>
+    <h2>Calculate Square of a Number</h2>
+    <p id="result"></p>
+
+    <script>
+        function square(num) {
+            return num * num;
+        }
+
+        let number = 4;
+        let squaredValue = square(number);
+
+        document.getElementById("result").innerText = 
+            "The square of " + number + " is " + squaredValue + ".";
+    </script>
+</body>
+</html>
