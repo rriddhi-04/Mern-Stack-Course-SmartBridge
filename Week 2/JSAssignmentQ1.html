@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Age Check</title>
+</head>
+<body>
+    <h2>Check if the person is an adult</h2>
+    <p id="ageDisplay"></p>
+    <p id="result"></p>
+    
+
+    <script>
+        let age = 25;
+        let isAdult = age >= 18 ? true : false;
+        document.getElementById("ageDisplay").innerText = "Age: "+age;
+        document.getElementById("result").innerText = "Is the person an adult? " + isAdult;
+    </script>
+
+</body>
+</html>
